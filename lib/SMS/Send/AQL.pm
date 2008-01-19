@@ -1,11 +1,11 @@
 package SMS::Send::AQL;
 
-# $Id: AQL.pm 210 2008-01-19 15:23:43Z davidp $
+# $Id: AQL.pm 215 2008-01-19 16:57:31Z davidp $
 
 use strict;
 use warnings;
 use SMS::AQL;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 use base 'SMS::Send::Driver';
 
 

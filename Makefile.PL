@@ -5,10 +5,10 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME              => 'SMS::Send::AQL',
     VERSION_FROM      => 'lib/SMS/Send/AQL.pm',
-    PREREQ_PM         => { SMS::AQL => 0 },
+    PREREQ_PM         => { SMS::AQL => 0, SMS::Send::Driver => 0 },
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/SMS/Send/AQL.pm',
        AUTHOR         => 'David Precious <davidp@preshweb.co.uk>') : ()),
 );
 
-# $Id: Makefile.PL 212 2008-01-19 15:31:33Z davidp $
+# $Id: Makefile.PL 215 2008-01-19 16:57:31Z davidp $

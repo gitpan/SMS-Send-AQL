@@ -1,12 +1,13 @@
 --- #YAML:1.0
 name:                SMS-Send-AQL
-version:             0.01
+version:             0.02
 abstract:            SMS::Send driver to send messages via AQL (www.aql.com)
 license:             ~
 generated_by:        ExtUtils::MakeMaker version 6.36
 distribution_type:   module
 requires:     
     SMS::AQL:                      0
+    SMS::Send::Driver:             0
 meta-spec:
     url:     http://module-build.sourceforge.net/META-spec-v1.2.html
     version: 1.2
