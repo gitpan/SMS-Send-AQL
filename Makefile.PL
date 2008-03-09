@@ -6,9 +6,10 @@ WriteMakefile(
     NAME              => 'SMS::Send::AQL',
     VERSION_FROM      => 'lib/SMS/Send/AQL.pm',
     PREREQ_PM         => { SMS::AQL => 0, SMS::Send::Driver => 0 },
+    NO_META           => 1,
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/SMS/Send/AQL.pm',
        AUTHOR         => 'David Precious <davidp@preshweb.co.uk>') : ()),
 );
 
-# $Id: Makefile.PL 215 2008-01-19 16:57:31Z davidp $
+# $Id: Makefile.PL 280 2008-03-09 01:53:31Z davidp $

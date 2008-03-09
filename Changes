@@ -1,11 +1,14 @@
 Revision history for Perl extension SMS::Send::AQL.
 
-0.02  19th Jan 2008
+0.03  2008-03-09
+    - Kwalitee-boosting (include META.yml with valid licence)
+    
+0.02  2008-01-19
     - stupidly forgot to declare SMS::Send::Driver as a pre-req
     
-0.01  19th Jan 2008
+0.01  2008-01-19
 	- original version
 
 
 
-$Id: Changes 215 2008-01-19 16:57:31Z davidp $
+$Id: Changes 280 2008-03-09 01:53:31Z davidp $
